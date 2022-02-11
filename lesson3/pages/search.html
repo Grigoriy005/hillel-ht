@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <h1>АВТОРЫНОК</h1>
+            <h3>заходи,выбирай,покупай</h3>
+            <img src="..//assets/imege.jpg" alt="авторынок">        
+        </header>
+        <main>
+            <h2>Выбор автомобиля</h2>
+            <form action="https://fom.in.ua/echo" method="GET">
+                <div>
+                    <h4>Тип автомобиля</h4>
+                    <input type="radio" id="avto" name="html" value="Грузовой">
+                    <label for="avto">Грузовой</label>
+                    <input type="radio" id="avto-2" name="html" value="Легковой">
+                    <label for="avto-2">Легковой</label>
+                    <input type="radio" id="avto-3" name="html" value="Грузопассажирский">
+                    <label for="avto-3">Грузопассажирский</label><br>
+                </div>
+                <div>
+                    <h4>Состояние</h4>
+                    <input type="radio" id="sait" name="sost" value=Новый>
+                    <label for="sait">Новый</label>
+                    <input type="radio" id="sait-2" name="sost" value=Б/У>
+                    <label for="sait-2">Б/У</label><br>
+                </div>
+                <div>
+                    <h4>Тип двигателя</h4>
+                    <input type="radio" id="diz" name="oil" value="Дизель">
+                    <label for="diz">Дизель</label>
+                    <input type="radio" id="diz-2" name="oil" value="Бензин">
+                    <label for="diz-2">Бензин</label>
+                    <input type="radio" id="diz-3" name="oil" value="Газ-бензин">
+                    <label for="diz-3">Газ-бензин</label><br>
+                </div>
+                <div>
+                    <h4>Марка</h4>
+                    <label for="marka"></label><br>
+                    <input type="text" id="marka" name="logo" value="марка:"><br>
+                </div>
+                <div>
+                    <h4>Цвет</h4>
+                    <label for="vid"></label><br>
+                    <input type="text" id="vid" name="color" value="цвет:"><br>
+                </div>
+                <div>
+                    <h4>Год выпуска</h4>
+                    <label for="datemax">год выпуска</label><br>
+                    <input type="date" id="datemax" name="datemax" max="2022-02-20"><br>
+                </div>
+                <div>
+                    <h4>Комплектация</h4>
+                    <label for="lux">Кожа</label>
+                    <input type="checkbox" id="lux" name="lux" value="кожа"><br>
+                    <label for="lux1">Люк</label>
+                    <input type="checkbox" id="lux1" name="lux" value="люк"><br>
+                    <label for="lux2">Климат</label>
+                    <input type="checkbox" id="lux2" name="lux" value="Климат"><br>
+                    <label for="lux3">Подогрев сидений</label>
+                    <input type="checkbox" id="lux3" name="lux" value="Подогрев сидений"><br>
+                    <label for="lux4">Легкосплавные диски</label>
+                    <input type="checkbox" id="lux4" name="lux" value="Легкосплавные диски"><br>
+                    <label for="lux5">Электропривод сидений</label>
+                    <input type="checkbox" id="lux5" name="lux" value="Электропривод сидений"><br>
+                </div>
+                <div>
+                    <button type="submit">Отправить</button>
+                    <button type="reset">Очистить</button>
+                </div>
+            </form>
+        </main>
+            <div>
+                <a href="../index.html">главная,</a>
+                <a href="reg.html">регистрация,</a>
+                <a href="avtoriz.html">авторизация.</a>
+            </div>
+        <footer>
+            <p>Наш адресс: г.Днепропетровск,ж/м Левобережный ул.Донецкое шоссе 25 тел. +380983650101,+380504500202.</p>
+        </footer>
+    </body> 
+</html>
