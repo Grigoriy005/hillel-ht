@@ -15,7 +15,6 @@
 			color: green;
 			text-decoration: none;
 		}
-
 		/* пример выполнения */
 		.all * {
 			color: red;
@@ -35,10 +34,10 @@
 		.all-form form * {
 			box-shadow: 1px 1px 5px red; 
 		}
-		.all-input input[type=text] {
+		.all-input input[type="text"] {
 			box-shadow: 1px 1px 5px blue;
 		}
-		.all-checkbox input[type=checkbox] {
+		.all-checkbox input[type="checkbox"] {
 			box-shadow: 1px 1px 5px blue;
 		}
 		.select-all-links-form-footer footer a {
@@ -47,7 +46,6 @@
 		.all-link a {
 			color: red;
 		}
-		
 		.all-link-visited a:visited {
 			color: red;
 		}
@@ -67,10 +65,10 @@
 			color: red;
 		}
 		.block #messages {
-			background: blue;
+			background: green;
 		}
 		.all-message #message-1 span, .all-message #message-2 span, .all-message #message-3 span,
-		 .all-message #message-4 span, .all-message #message-5 span {
+		.all-message #message-4 span, .all-message #message-5 span {
 			color: red;
 		}
 		.all-footer-el footer * {
@@ -82,20 +80,19 @@
 		.cursor-link ul#messages a:hover {
 			color: orange;
 		}
-		.input-checkbox  input[type=checkbox] {
+		.input-checkbox  input[type="checkbox"] {
 			box-shadow: 1px 1px 5px red;
 		}
-		body>.children-body  {
-			background: red;
+		body>* {
+			background: #9f9f9f;
 		}
-		.footer-list footer ul.list {
+		.footer-list footer ul:nth-child(2) {
 			background: firebrick;
 		}
 	</style>
 </head>
 <body>
 	<button class="remove-all">Remove all</button>
-
 	<hr>
 	<!-- значения аттрибута data-name будет пременено к тегу main как класс -->
 	<ul class="buttons">
@@ -123,11 +120,9 @@
 		<li data-name="footer-list">Найти список который следует за заголовком в подвале</li>
 	</ul>
 	<hr>
-
 	<!-- ⬇️Сюда будут добавляться классы из списка выше (значения аттрибута data-name) ⬇️-->
 	<main>
 		<!-- тут можно вставить любую разметку -->
-
 		<ul>
 			<li>
 				<span>3. История создания и развития CSS</span>
@@ -226,7 +221,7 @@
                 $main
                     .addClass(dataClass)
                     .addClass('is-active');
-            });
+			});
 
             function removeAll () {
                 $main.removeAttr('class');
