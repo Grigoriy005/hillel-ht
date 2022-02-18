@@ -1,0 +1,63 @@
+@font-face {
+        font-family: "RobotoRegular";
+        src: url("fonts/RobotoRegular/RobotoRegular.eot");
+        src: url("fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+        url("fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+        url("fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); 
+    }
+body {
+    font-family: "RobotoRegular", Arial, "Arial Black", Sans-serif;
+    background: rgb(0, 255, 157);
+    margin: 20px;
+}
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+img {
+    max-width: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    background: #FFFEFF;
+    border-radius: 21px;
+    padding: 20px;
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 15px;
+}
+
+.card h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #11072D;
+}
+.link {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.15);
+    background: rgba(103, 235, 0, 0.7);
+    border-radius: 50px;
+    display: block;
+    margin: 20px;
+}
