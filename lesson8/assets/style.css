@@ -1,0 +1,91 @@
+.fiatures .left,
+.fiatures .right {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 15px;
+}
+section {
+    margin-bottom: 15px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.fiatures {
+    border: 1px solid blue; 
+}
+.clear {
+    clear: both;
+}
+.fiather .left {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 15px;
+}
+.fiather .right {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    margin: 15px;
+    margin-top: 40px;
+}
+.fiather {
+    border: 1px solid blue;
+}
+.four {
+    border: 1px solid blue;
+}
+.four .left {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 15px;
+}
+.four .right {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 15px;
+}
+.big {
+    border: 1px solid blue;    
+}
+.big .left {
+    width: 230px;
+    height: 230px;
+    background-color: blue;
+    margin: 15px; 
+}
+.big .right {
+    width: 230px;
+    height: 100px;
+    background-color: blue;
+    margin: 15px;  
+}
+.center {
+    width: 520px;
+    margin: auto;
+}
+.three {
+    border: 1px solid blue;    
+}
+.three .left {
+    width: 230px;
+    height: 230px;
+    background-color: blue;
+    margin: 15px;  
+}
+.right-box {
+    width: 520px;
+    float: right;
+}
+.three .right {
+    width: 230px;
+    height: 100px;
+    background-color: blue;
+    margin: 15px;
+}
