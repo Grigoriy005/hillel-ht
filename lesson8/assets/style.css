@@ -17,9 +17,13 @@ section {
 .fiatures {
     border: 1px solid blue; 
 }
-.clear {
-    clear: both;
-}
+
+.clearfix:before,
+.clearfix:after{
+     content:'';
+     display: block;
+     clear: both;
+    }
 .fiather .left {
     width: 100px;
     height: 100px;
