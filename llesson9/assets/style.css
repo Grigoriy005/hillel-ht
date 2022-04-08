@@ -68,12 +68,12 @@ header {
 .saloon {
     background-color: white;
 }
-.logo_beauty {
+.logo-beauty {
     float: left;
     padding-top: 20px;
     padding-right: 20px;
 }
-.logo_title {
+.logo-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -127,7 +127,7 @@ header {
     background: url('img/super.png');
     padding-bottom: 193px;
 }
-.pink_title {
+.pink-title {
     font-weight: 700;
     font-size: 48px;
     line-height: 56px;
@@ -143,7 +143,7 @@ header {
     width: 308px;
     margin-bottom: 50px;
 }
-.pink .pink_a {
+.pink .pink-a {
     font-size: 14px;
     line-height: 16px;
     text-align: center;
@@ -158,7 +158,7 @@ header {
     padding-left: 27px;
     padding-right: 26px;
 }
-.price_title {
+.price-title {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -166,14 +166,14 @@ header {
     margin-top: 80px;
     margin-bottom: 38px;
 }
-.price_norm {
+.price-norm {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     text-align: center;
     color: #333333;
 }
-.price_card {
+.price-card {
     float: left;
     width: 255px;
     background: #FFFFFF;
@@ -181,11 +181,11 @@ header {
     text-align: center;
     padding: 25px 30px;
 }
-.price_card:last-child {
+.price-card:last-child {
     margin-right: 0;
 
 }
-.price_cena {
+.price-cena {
     font-weight: 500;
     font-size: 21px;
     line-height: 25px;
@@ -195,7 +195,7 @@ header {
     padding-bottom: 20px;
     padding-top: 20px;
 } 
-.price_card a {
+.price-card a {
     font-size: 14px;
     line-height: 16px;
     text-align: center;
@@ -211,7 +211,7 @@ header {
 .price {
     margin-bottom: 100px;
 }
-.banner_pink {
+.banner-pink {
     width: 540px;
     background: #F13C6E;
     float: left;
@@ -220,7 +220,7 @@ header {
     padding-bottom: 35px;
     padding-left: 40px;
 }
-.banner_pink2 {
+.banner-pink2 {
     width: 540px;
     height: 212px;
     left: 975px;
@@ -228,29 +228,29 @@ header {
     background: #F13C6E;
     float: right;
 }
-.impuls_wite {
+.impuls-wite {
     background: #FFFFFF;
     margin-top: 100px;
     padding-left: 60px;
     padding-top: 35px;
     padding-bottom: 35px;
 }
-.impuls_table {
+.impuls-table {
     float: left;
     margin-right: 130px;
     margin-bottom: 70px;
 }
-.impuls_table:nth-child(4n){
+.impuls-table:nth-child(4n){
     margin-right: 0;
 }
-.impuls_table:nth-last-child(-n+4){
+.impuls-table:nth-last-child(-n+4){
     margin-bottom: 0;
 }
-.banner_img {
+.banner-img {
     float: right;
     margin-top: 18px;
 }
-.banner_description {
+.banner-description {
     font-size: 14px;
     line-height: 20px;
     color: #FFFFFF;
@@ -258,7 +258,7 @@ header {
     margin-top: 25px;
     margin-bottom: 25px;
 }
-.banner_card {
+.banner-card {
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
@@ -278,7 +278,7 @@ header {
     font-size: 14px;
     line-height: 16px;
 }
-.banner_pink a {
+.banner-pink a {
     background: #F13C6E;
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
@@ -293,17 +293,17 @@ header {
     display: block;
     width: 170px;
 }
-.banner_left {
+.banner-left {
     float: left;
 }
-.banner_right {
+.banner-right {
     float: right;
 }
 .top {
     background: #fff;
     padding-top: 60px;
 }
-.top_title {
+.top-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 140.62%;
@@ -311,15 +311,15 @@ header {
     width: 99px;
     margin-bottom: 55px;
 }
-.top_block:last-child {
+.top-block:last-child {
     margin-right: 0;
 }
-.top_nav a {
+.top-nav a {
     font-size: 12px;
     line-height: 28px;
     color: #828282;
 }
-.top_block {
+.top-block {
     float: left;
     margin-right: 186px;
     padding-bottom: 112px;
@@ -327,14 +327,13 @@ header {
 .midl {
     background: #fff;
 }
-.midl_img {
+.midl-img {
     float: left;
 }
-.midl_tel {
+.midl-tel {
     float: right;
-    margin-top: 14px;
 }
-.midl_a {   
+.midl-a {   
     background: #FFFFFF;
     border: 2px solid #F13C6E;
     box-sizing: border-box;
@@ -345,23 +344,23 @@ header {
     padding-right: 26px;
     margin-left: 40px;
 }
-.botom_description {
+.botom-description {
     float: left;
     font-size: 12px;
     line-height: 14px;
     color: #828282;
 }
-.botom_description2 {
+.botom-description2 {
     float: right;
     font-size: 12px;
     line-height: 14px;
     color: #828282;
 }
-.botom_block {
+.botom-block {
     padding-top: 25px;
     padding-bottom: 25px;
 }
-.midl_box {
+.midl-box {
     padding: 38px 0;
     border-top: 1px solid #EFEFEF;
 }
