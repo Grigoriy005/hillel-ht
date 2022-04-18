@@ -1,34 +1,5 @@
-@font-face {
-	font-family: "Roboto";
-	src: url("fonts/Roboto-bold.eot"); /* IE9 Compat Modes */
-	src: url("fonts/Roboto-bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-	     url("fonts/Roboto-bold.svg") format("svg"), /* Legacy iOS */
-	     url("fonts/Roboto-bold.ttf") format("truetype"), /* Safari, Android, iOS */
-         url("fonts/Roboto-bold.woff") format("woff"), /* Modern Browsers */
-	     url("fonts/Roboto-bold.woff2") format("woff2"); /* Modern Browsers */
-    font-weight: 700;
-}
-@font-face {
-    font-family: "Roboto";
-    src: url("fonts/Roboto-regular.eot"); /* IE9 Compat Modes */
-    src: url("fonts/Roboto-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-         url("fonts/Roboto-regular.svg") format("svg"), /* Legacy iOS */
-         url("fonts/Roboto-regular.ttf") format("truetype"), /* Safari, Android, iOS */
-         url("fonts/Roboto-regular.woff") format("woff"), /* Modern Browsers */
-         url("fonts/Roboto-regular.woff2") format("woff2"); /* Modern Browsers */
-}
-@font-face {
-    font-family: "Roboto";
-    src: url("fonts/Roboto-medium.eot"); /* IE9 Compat Modes */
-    src: url("fonts/Roboto-medium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-         url("fonts/Roboto-medium.svg") format("svg"), /* Legacy iOS */
-         url("fonts/Roboto-medium.ttf") format("truetype"), /* Safari, Android, iOS */
-         url("fonts/Roboto-medium.woff") format("woff"), /* Modern Browsers */
-         url("fonts/Roboto-medium.woff2") format("woff2"); /* Modern Browsers */
-    font-weight: 500;
-}
 body {
-    font-family: "Roboto";
+    font-family: "Roboto", serif;
     font-size: 16px;
     line-height: 1.64;
     letter-spacing: 0.1em;
@@ -74,7 +45,7 @@ header {
     line-height: 26px;
     letter-spacing: 0.1em; 
 }
-.design li{
+.promo-menu li{
     float: left;
     margin-right: 42px;
 }
@@ -152,7 +123,6 @@ p.description {
     padding-bottom: 103px;
 }
 .card img {
-    float: left;
     margin-right: 20px;    
 }
 .card p {
