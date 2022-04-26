@@ -1,0 +1,186 @@
+body {
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    line-height: 1.64;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+.promo-menu a {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-transform: uppercase;
+}
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+h1 {
+    margin-top: 0;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    padding-top: 162px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+header {
+    background: #EEEFF1;
+    display: block;
+    margin-bottom: 112px;
+    padding-bottom: 141px;
+    padding-top: 60px;
+}
+.design {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em; 
+}
+.promo-menu li{
+    float: left;
+    margin-right: 42px;
+}
+header ul li.active a {
+    color: #34547A;
+}   
+.text p {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 65px;
+    max-width: 540px;
+}
+.message {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: #34547A;
+    display: inline-block;
+}
+.message a {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.content h2 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+}
+p.description {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    max-width: 540px;
+    display: block;
+    margin: auto;
+}
+.cards {
+    margin-bottom: 100px;
+}
+.card-box .card {    
+    float: left;
+}
+.card {
+    margin-right: 36px;
+    width: 155px;
+}
+.card h3 {
+    font-family: Roboto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.card:last-child {
+    margin-right: 0;
+}
+.cards {
+    background-color: #34547A;
+    padding-top: 103px;
+    padding-bottom: 103px;
+}
+.card img {
+    margin-right: 20px;    
+}
+.card p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.content p {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.work h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+}
+.work p {
+    padding-top: 50px;
+    padding-bottom: 57px;
+}
+.video-pg {
+    width: 1110px;
+}
+.video {
+    position: relative;
+}
+.play {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    background: none;
+    border: none;   
+}
+footer {
+    background-color:#34547A;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+footer h3 {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+} 
+footer p {
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+  
